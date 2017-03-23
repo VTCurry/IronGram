@@ -21,6 +21,13 @@ public class Photo {
     @Column(nullable = false)
     String filename;
 
+    @Column (nullable = false)
+    int setTime;
+
+    @Column (nullable = false)
+    boolean privateIt=false;
+
+
     public Photo() {
     }
 
